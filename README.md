@@ -8,7 +8,7 @@ The goal of this project was to transform raw operational data into a scalable, 
 ## 🗄️ Data Architecture & Modeling
 A major focus of this project was establishing a robust relational data model capable of handling complex supply chain metrics without compromising report performance. 
 
-![Data Model](DataModeling%20Image.png)
+![Data Model](Image/DataModeling%20Image.png)
 
 The backend utilizes a comprehensive **Star/Snowflake Schema** consisting of:
 * **Fact Tables:** `fact_sales`, `fact_inventory`, `fact_production`, `fact_procurement`, and `fact_shipment` to track transactional events.
@@ -18,29 +18,29 @@ The backend utilizes a comprehensive **Star/Snowflake Schema** consisting of:
 ## 🌐 Website-Style Navigation
 To enhance the user experience, the report eschews standard Power BI tabs in favor of a sleek, built-in navigation bar. Using buttons and page navigation actions, users can easily jump between different functional areas of the business, starting from a clean, branded Home Page.
 
-![Home Page](Home%20Dashboard%20Image.png)
+![Home Page](Image/Home%20Dashboard%20Image.png)
 
 ## 📊 Dashboard Pages & Features
 
 ### 1. Overview
 Acts as the executive summary, providing macro-level financial KPIs ($186.86M Gross Revenue, $48.56M Profit) and snapshot indicators for supply chain health. It includes mini-visuals tracking order quantities, inventory stock, shipment delays by carrier, and revenue by platform.
-![Overview Page](Overview%20Dashboard%20Image.png)
+![Overview Page](Image/Overview%20Dashboard%20Image.png)
 
 ### 2. Supplier Performance
 Tracks vendor efficiency and cost. Key features include monitoring Total Unit Cost ($78.13M), Average Lead Times (11.53 Days), and Average Quality Scores. The charts identify top-performing suppliers (e.g., Taiwan Semiconductor, Sony) vs. those with longer lead times.
-![Supplier Page](Supplier%20Dashboard%20Image.png)
+![Supplier Page](Image/Supplier%20Dashboard%20Image.png)
 
 ### 3. Inventory & Production
 Monitors stock levels against safety thresholds. Highlights include tracking 160K in Inventory Value, Defective Units, and Turnover Rates. A standout visual is the combined chart tracking Current Stock vs. Safety Stock vs. Reorder Points for specific flagship products (e.g., Galaxy S24 Ultra).
-![Inventory Page](Inventory%20Dashboard%20Image.png)
+![Inventory Page](Image/Inventory%20Dashboard%20Image.png)
 
 ### 4. Shipment & Logistics
 Focuses on outbound logistics, tracking $19.42M in shipment costs and carrier delays. It breaks down the 573 total delays by carrier (Maersk Line leading with 87 delays) and isolates root causes (Carrier Delays, Customs, Documentation). 
-![Shipment Page](Shipment%20Dashboard%20Image.png)
+![Shipment Page](Image/Shipment%20Dashboard%20Image.png)
 
 ### 5. Customer & Sales
 Analyzes the end point of the supply chain. Tracks profitability across different sales channels (Retailer, Online, Direct). Features a scatter plot analyzing the correlation between Discount %, Quantity Sold, and Total Revenue across product categories (Smartphones vs. Wearables).
-![Customer Page](Customer%20Dashboard%20Image.png)
+![Customer Page](Image/Customer%20Dashboard%20Image.png)
 
 ## 💡 Key Business Insights
 1. **Logistics Bottlenecks:** Maersk Line and DHL Express account for the highest total shipment delays. Furthermore, the primary reason for delivery failures stems from "Carrier Delays" and "Documentation," highlighting a need for better paperwork compliance and carrier renegotiations.
