@@ -8,7 +8,7 @@ The goal of this project was to transform raw operational data into a scalable, 
 ## 🗄️ Data Architecture & Modeling
 A major focus of this project was establishing a robust relational data model capable of handling complex supply chain metrics without compromising report performance. 
 
-![Data Model](image_1658f3.png)
+![Data Model](DataModeling%20Image.png)
 
 The backend utilizes a comprehensive **Star/Snowflake Schema** consisting of:
 * **Fact Tables:** `fact_sales`, `fact_inventory`, `fact_production`, `fact_procurement`, and `fact_shipment` to track transactional events.
@@ -49,7 +49,7 @@ Analyzes the end point of the supply chain. Tracks profitability across differen
 4. **Sales Channels:** Retailers drive the largest portion of revenue (41.39%), but Online channels (18.2%) represent a high-margin growth area. 
 
 ## 🛠️ Files Included
-* `Samsung_Supply_Chain_Dashboard.pbix`: The complete Power BI project file, including the data model, DAX calculations, and interactive report pages.
+*  [Download the Power BI File (Supply Chain Dashboard.pbix)](Supply%20Chain%20Dashboard.pbix): The complete Power BI project file, including the data model, DAX calculations, and interactive report pages.
 
 ## 🎓 Credits & Learning Resources
 This dashboard was developed to advance my skills in complex data modeling and UI/UX design in Power BI. 
