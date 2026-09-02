@@ -1,11 +1,17 @@
 # Samsung Supply Chain & Logistics Dashboard
 
+**[🌐 View Live Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiN2ZiYjRkZmItOTdmNy00ZjJkLWE0OWMtMDhmZTQ2ZWE4NjM0IiwidCI6IjY2ZGNhNGQyLTU0ZDktNDhiOC1hZDFhLTliOWUwNmRiMGQ5MCJ9)** | 📊 **[Download .pbix File](Supply%20Chain%20Dashboard.pbix)**
+
+---
+
 ## 📌 Project Overview
+
 This project is an end-to-end **Supply Chain and Logistics Analytics Dashboard** built in Power BI, designed to monitor and optimize operations for a global electronics manufacturer (Samsung). 
 
 The goal of this project was to transform raw operational data into a scalable, enterprise-grade data model and layer it with a highly interactive, "website-style" user interface. The dashboard allows stakeholders to seamlessly navigate through high-level overviews down to granular metrics across suppliers, inventory, shipments, and customers.
 
 ## 🗄️ Data Architecture & Modeling
+
 A major focus of this project was establishing a robust relational data model capable of handling complex supply chain metrics without compromising report performance. 
 
 ![Data Model](Image/DataModeling%20Image.png)
@@ -16,6 +22,7 @@ The backend utilizes a comprehensive **Star/Snowflake Schema** consisting of:
 * **DAX:** Custom measures were developed to calculate advanced metrics like `Discount %`, perfect order percentages, and dynamic inventory turnover.
 
 ## 🌐 Website-Style Navigation
+
 To enhance the user experience, the report eschews standard Power BI tabs in favor of a sleek, built-in navigation bar. Using buttons and page navigation actions, users can easily jump between different functional areas of the business, starting from a clean, branded Home Page.
 
 ![Home Page](Image/Home%20Dashboard%20Image.png)
@@ -43,15 +50,17 @@ Analyzes the end point of the supply chain. Tracks profitability across differen
 ![Customer Page](Image/Customer%20Dashboard%20Image.png)
 
 ## 💡 Key Business Insights
+
 1. **Logistics Bottlenecks:** Maersk Line and DHL Express account for the highest total shipment delays. Furthermore, the primary reason for delivery failures stems from "Carrier Delays" and "Documentation," highlighting a need for better paperwork compliance and carrier renegotiations.
 2. **Inventory Optimization:** Flagship products like the *Galaxy S24 Ultra* and *Galaxy Buds2 Pro* are maintaining healthy buffers above their safety stock levels, but defect rates for the S24 Ultra peak at 4.3K units, requiring a review of the production line.
 3. **Supplier Quality:** Taiwan Semiconductor and Sony Semiconductor are delivering the highest Average Quality Scores (98) while maintaining consistent lead times, making them the most reliable vendors in the network.
 4. **Sales Channels:** Retailers drive the largest portion of revenue (41.39%), but Online channels (18.2%) represent a high-margin growth area. 
 
 ## 🛠️ Files Included
-*  [Download the Power BI File (Supply Chain Dashboard.pbix)](Supply%20Chain%20Dashboard.pbix): The complete Power BI project file, including the data model, DAX calculations, and interactive report pages.
+* **[Download the Power BI File (Supply Chain Dashboard.pbix)](Supply%20Chain%20Dashboard.pbix):** The complete Power BI project file, including the data model, DAX calculations, and interactive report pages.
 
 ## 🎓 Credits & Learning Resources
+
 This dashboard was developed to advance my skills in complex data modeling and UI/UX design in Power BI. 
 
 A special thanks to the YouTube channel **"The Developer BI"** for the foundational concepts and design inspiration. You can view the tutorials that guided this build here:
